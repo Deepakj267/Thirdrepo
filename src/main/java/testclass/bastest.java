@@ -21,6 +21,8 @@ public class bastest {
         addUserPo aduser = new addUserPo(driver);
         LoginPo login = new LoginPo(driver);
         
+        System.out.println("branchOne>thirdRepo Checking");
+        
         login.loginToPage();
         Thread.sleep(1500);
         
